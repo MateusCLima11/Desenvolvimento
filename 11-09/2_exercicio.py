@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-num = st.number_input("Digite o numero desejaado:\n",step=1)
+num = st.number_input("Digite o numero desejado:\n",step=1)
 
 if st.button("iniciar"):
     for i in range(1,11):
