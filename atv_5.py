@@ -24,3 +24,5 @@ match codigo:
         print("Prato selecionado: Bife Acebolado Valor: 15,00 R$")
     case 5:
         print("Prato selecionado: Pão com Ovo Valor: 05,00 R$")
+    case _:
+        print("Fim")
