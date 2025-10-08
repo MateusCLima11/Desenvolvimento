@@ -8,8 +8,11 @@ def subtrair(n1, n2):
   return n1 - n2
 
 def dividir(n1, n2):
-  return n1 / n2
-
+  #return n1 / n2 if n2 != 0 else "Divisão por zero"
+    if n2 == 0:
+       print("Divisao por zero.")
+    else:
+       return n1 / n2
 def multiplicar(n1, n2):
   return n1 * n2
 
