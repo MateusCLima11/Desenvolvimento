@@ -10,6 +10,7 @@ while True:
     login = input("Digite seu login: ")
     senha = input("Digite sua senha: ")
     if slv_login == login and slv_senha == senha:
+        print("Login e senha corretos.")
         break
     else:
         print("Login e/ou senha incorretos.")
