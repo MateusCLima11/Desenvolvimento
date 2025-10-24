@@ -26,9 +26,8 @@ for i in range(3):
                            cpf= input("Digite seu CPF: "),
                            telefone= input("Digite se telefone: "))
     lista_pessoas.append(dados_pessoas)  
-
-import os
-os.system("cls")
+    import os
+    os.system("cls")
 
 for dados_pessoas in lista_pessoas:
     dados_pessoas.mostrar_dados()
