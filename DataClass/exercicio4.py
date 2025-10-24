@@ -6,7 +6,7 @@ from dataclasses import dataclass
 class Pessoa:
     nome : str
     email : str
-    endereco ; str
+    endereco : str
 
     def mostrar_dados(self):
         print("Exibindo dados do usuário")
