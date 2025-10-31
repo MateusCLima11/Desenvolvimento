@@ -15,7 +15,7 @@ class Pessoas:
         print(f"Telefone: {self.telefone}")
 
     def dados_sms_marketing(self):
-        print("MOSTRAANDO TELEFONE")
+        print("MOSTRANDO TELEFONE")
         print(f"Telefone: {self.telefone}")
 
 
